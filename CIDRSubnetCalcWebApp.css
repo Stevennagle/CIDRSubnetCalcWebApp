@@ -14,7 +14,7 @@ body {
     align-items: center;
     justify-content: center;
     /*viewport height units out of 100*/
-    min-height: 40vh;
+    min-height: 80vh;
 }
 
 .container {
