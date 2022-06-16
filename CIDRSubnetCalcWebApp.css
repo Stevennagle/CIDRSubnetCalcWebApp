@@ -3,6 +3,8 @@
 *{
     /*keep padding from affecting the width of the elements*/
     box-sizing: border-box;
+    /*Removes hyperlink underline*/
+    text-decoration: none;
 }
 
 body {
@@ -22,7 +24,35 @@ body {
     width: 400px;
 }
 
+h1, h2, h3 , h4 {
+    text-align: center;
+    margin: 0 0 20px;
+}
+
 .form {
     padding: 30px 40px;
+}
 
+.form-control {
+    /*Adds space between elements of the form*/
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.form-control label{
+color: rgb(37, 34, 34); 
+/*Places element label above text field*/
+display: block;   
+margin-bottom: 5px;
+}
+
+.form-control input {
+    color: rgb(134, 128, 128); 
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 5%;
+    font-size: 18px;
 }
