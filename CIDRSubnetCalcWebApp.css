@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    /*keep padding from affecting the width of the elements*/
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9fafb ;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*viewport height units out of 100*/
+    min-height: 40vh;
+}
