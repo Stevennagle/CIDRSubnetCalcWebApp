@@ -14,3 +14,15 @@ body {
     /*viewport height units out of 100*/
     min-height: 40vh;
 }
+
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+}
+
+.form {
+    padding: 30px 40px;
+
+}
